@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single">
+
+
+        <item android:title="Home"
+            android:icon="@drawable/baseline_home_24"
+            android:id="@+id/home"
+            />
+
+        <item android:title="category"
+            android:icon="@drawable/baseline_category_24"
+            android:id="@+id/category"
+            />
+
+
+
+        <item android:title="Favourite"
+            android:icon="@drawable/baseline_favorite_24"
+            android:id="@+id/favourite"
+            />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+           <item
+               android:title="Profile">
+
+               <menu>
+
+                   <item android:title="Login"
+                       android:icon="@drawable/baseline_home_24"
+                       android:id="@+id/login"
+                       />
+
+               </menu>
+
+
+
+           </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Communicate">
+
+            <menu>
+
+                <item android:title="Share"
+                    android:icon="@drawable/baseline_share_24"
+                    android:id="@+id/share"
+                    />
+
+                <item android:title="RateUs"
+                    android:icon="@drawable/baseline_rate_review_24"
+                    android:id="@+id/Rateus"
+                    />
+
+            </menu>
+
+
+
+        </item>
+
+    </group>
+
+
+
+
+
+
+</menu>

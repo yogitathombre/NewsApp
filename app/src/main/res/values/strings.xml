@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">newsrecy</string>
+    <string name="api_key">f78349e172ef4979ae8e88bc510ad4c9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="opendrawer">open navigation drawer</string>
+    <string name="closedrawer">close navigation drawer</string>
+</resources>
